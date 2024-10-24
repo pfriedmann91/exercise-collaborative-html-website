@@ -1,53 +1,21 @@
-html, body{
+body{
     background:whitesmoke;
 }
-a{
-  color: whitesmoke;
+.web-part>div{
+    margin-top: 100px;
 }
-.nav-link{
-    color: whitesmoke;
-}
-nav{
-    background-color:black;
-}
-.navbar-padding{
-    padding-left: 0;
-    padding-right: 0;
-}
-.img-container{
-    padding: inherit;
-}
-img{
-    width: 100%;
-}
-.text-overlay{
-    position: absolute;
-top: 30%; left: 50%; transform: translate(-50%, -50%);
-}
-.text-overlay2{
-    position: absolute;
-top: 42%; left: 50%; transform: translate(-50%, -50%);
-}
-h1{
-    display: flex;
-    justify-content: center;
-    position: relative;
-    bottom: 115px;
-    align-items: center;
-    background-color: white;
-}
-h2{
-    font-size: 1.5em;
-    background-color: white;
-    display: flex;
-    position: relative;
-    bottom: 143px;
-    align-items: center;
-    justify-content: center;
-} 
-.material-symbols-outlined{
-    color:whitesmoke
+.bg-img{
+    top:56px;
 }
 .form,.text-box>*::placeholder{
     font-size: 14px;
+}
+.project-comment{
+    font-size: 12px;
+}
+.text-container .img-title{
+    font-size: 10vw;
+}
+.text-container .img-subtitle{
+    font-size: 6vw;
 }
